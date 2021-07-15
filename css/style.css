@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'head';
+    src: url('../font/DXPnM-KSCpc-EUC-H.ttf') format('truetype');
+}
+
+#wrap {
+    width: auto;
+    height: 2000px;
+    background-color: #fff;
+    padding-top: 10px;
+
+    font-family: 'head';    
+}
+
+#wrap>#header {
+    width: 50%;
+    height: 50px;
+    background-color: #fff;
+    margin: 0px auto;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    text-align: center;
+}
+
+#wrap>#header span {
+    font-family: 'head';
+    font-size: 20px;
+}
+
+#inf1 {
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+} 
+
+#inf2 {
+    margin: 0px auto;
+    width: 1000px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.gnb {
+    margin-top: 20px;
+    margin-top: 20px;
+    margin: 0px auto;
+}
+
+
+div>ul li {
+    margin-left: 750px;
+    width: auto;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+ 
+.gnb :first-child {
+    margin-top: 50px;
+}
+
+#inf3 {
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 25px;
+}
